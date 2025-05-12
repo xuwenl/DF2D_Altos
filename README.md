@@ -20,3 +20,4 @@ To use the pipeline:
     python segmentation_driver.py params_2dreg.yaml
     python QC_plots.py params_2dreg.yaml
     ``` 
+6. Convert DART-FISH data to standard spatial data format use jupyter notebook: `_df2xen_XL.ipynb`
