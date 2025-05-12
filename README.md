@@ -14,6 +14,7 @@ To use the pipeline:
     python StitchDriver_2D.py params_2dreg.yaml
     python findDecodingParams.py params_2dreg.yaml
     python decoding_driver.py params_2dreg.yaml
+    # if not enough memory, use docker job --type r6i.32xlarge --cpu 15 --memory 500 python_path decoding_driver.py params_2dreg.yaml
     python CombineFOVs.py params_2dreg.yaml
     python segmentation_driver.py params_2dreg.yaml
     python QC_plots.py params_2dreg.yaml
