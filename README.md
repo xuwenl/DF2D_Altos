@@ -5,6 +5,7 @@ To use the pipeline:
 1. Install the main conda environment: `conda env create -f conda_environment_image.yml`
 2. Activate conda environment: `conda activate image`
 3. Modify parameter file for your experiment.
+    Important parameters are: `reg_rounds`, `rounds_dir`, `rounds_regex3d` for file structures; `ref_reg_cycle` for cycles as reference for registration; `codebook_path`, `dc_rounds` for decoding; `pretrained_model` for segementation
 4. Run the pipeline in dockyard using: `python main.py params_2dreg.yaml`
 5. Or to run the pipeline step by step:
     ```
