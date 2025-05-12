@@ -20,4 +20,4 @@ To use the pipeline:
     python segmentation_driver.py params_2dreg.yaml
     python QC_plots.py params_2dreg.yaml
     ``` 
-6. Convert DART-FISH data to standard spatial data format use jupyter notebook: `_df2xen_XL.ipynb`. Then the data can be processed like Xenium data for futher benchmarking or analysis using https://github.com/altos-labs/spatial_protocol_benchmarking or https://github.com/altos-labs/nf-xenium-processing?tab=readme-ov-file
+6. Convert DART-FISH data to standard spatial data format use jupyter notebook: `_df2xen_XL.ipynb`. Then the data can be processed like Xenium data for futher benchmarking or analysis using VPetukhov's Xenium processing pipeline (https://github.com/altos-labs/spatial_protocol_benchmarking) or `nf-xenium-processing` from bioinformatics hub (https://github.com/altos-labs/nf-xenium-processing?tab=readme-ov-file)
